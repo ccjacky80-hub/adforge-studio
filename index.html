@@ -202,6 +202,9 @@
     .video-meta { display: flex; justify-content: space-between; gap: 20px; padding: 18px 4px 0; }
     .video-title { margin: 0; font-weight: 750; letter-spacing: -.02em; }
     .video-format { font-family: "IBM Plex Mono"; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; padding-top: 3px; }
+    .video-info { display: grid; gap: 6px; min-width: 0; }
+    .video-hypo { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+    .spec-tag { font-family: "IBM Plex Mono"; font-size: 10px; letter-spacing: .08em; border: 1px solid var(--line); border-radius: 4px; padding: 2px 6px; color: var(--muted); vertical-align: 2px; white-space: nowrap; }
     .work-note { max-width: 760px; margin: 44px 0 0; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 
     .process { border-bottom: 1px solid var(--line); }
@@ -383,7 +386,12 @@
               </video>
             </div>
             <figcaption class="video-meta">
-              <p class="video-title">LUMEN — Vitamin C Serum · Spec concept</p>
+              <div class="video-info">
+                <p class="video-title">LUMEN — Vitamin C Serum <span class="spec-tag">SPEC</span></p>
+                <p class="video-hypo"><strong>Hypothesis:</strong> A &ldquo;foundation-free challenge&rdquo; hook (specific number + counter-intuitive result) holds attention better than benefit-listing for blemish-prone buyers.</p>
+                <p class="video-hypo"><strong>Hook:</strong> &ldquo;I haven't worn foundation in 30 days!&rdquo;</p>
+                <p class="video-hypo"><strong>Angle:</strong> pain agitation &rarr; ingredient proof &rarr; promo close</p>
+              </div>
               <span class="video-format">9:16 / UGC</span>
             </figcaption>
           </figure>
@@ -395,7 +403,12 @@
               </video>
             </div>
             <figcaption class="video-meta">
-              <p class="video-title">AlignPro — Posture Corrector · Spec concept</p>
+              <div class="video-info">
+                <p class="video-title">AlignPro — Posture Corrector <span class="spec-tag">SPEC</span></p>
+                <p class="video-hypo"><strong>Hypothesis:</strong> Instant physical resonance (&ldquo;How's your neck doing?&rdquo;) opens the first 3 seconds better than beauty promises.</p>
+                <p class="video-hypo"><strong>Hook:</strong> &ldquo;How's your neck doing?&rdquo;</p>
+                <p class="video-hypo"><strong>Angle:</strong> pain resonance &rarr; instant result (&ldquo;straight in 3 seconds&rdquo;) &rarr; 30-day change &rarr; CTA</p>
+              </div>
               <span class="video-format">9:16 / UGC</span>
             </figcaption>
           </figure>
@@ -407,12 +420,17 @@
               </video>
             </div>
             <figcaption class="video-meta">
-              <p class="video-title">AWAKE — Caffeine Under-Eye Patches · Spec concept</p>
+              <div class="video-info">
+                <p class="video-title">AWAKE — Caffeine Under-Eye Patches <span class="spec-tag">SPEC</span></p>
+                <p class="video-hypo"><strong>Hypothesis:</strong> Time-contrast hooks are the most reliable performers in the under-eye category.</p>
+                <p class="video-hypo"><strong>Hook:</strong> &ldquo;Erase 8 hours of no sleep in 15 minutes&rdquo; + before/after close-ups</p>
+                <p class="video-hypo"><strong>Angle:</strong> all-nighter pain &rarr; 15-minute rescue &rarr; application demo &rarr; CTA</p>
+              </div>
               <span class="video-format">9:16 / UGC</span>
             </figcaption>
           </figure>
         </div>
-        <p class="work-note reveal">All three are spec concepts. The LUMEN and AlignPro cuts include Chinese AI voiceover; AWAKE includes English AI voiceover. Production versions are tailored to each client’s brand and language.</p>
+        <p class="work-note reveal">All three are spec concepts — proposed tests, not client work. Each ships from a hypothesis about the buyer, not from a template. Production versions are tailored to each client’s brand, language and ad-account data.</p>
       </div>
     </section>
 
